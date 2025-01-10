@@ -594,10 +594,6 @@ video {
   position: static;
 }
 
-.top-40{
-  top: 10rem;
-}
-
 .top-52{
   top: 13rem;
 }
@@ -606,12 +602,12 @@ video {
   z-index: 50;
 }
 
-.m-2{
-  margin: 0.5rem;
-}
-
 .mb-5{
   margin-bottom: 1.25rem;
+}
+
+.ml-2{
+  margin-left: 0.5rem;
 }
 
 .ml-3{
@@ -679,10 +675,6 @@ video {
   justify-content: space-around;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
 .gap-8{
   gap: 2rem;
 }
@@ -711,11 +703,6 @@ video {
   border-width: 1px;
 }
 
-.border-gray-950{
-  --tw-border-opacity: 1;
-  border-color: rgb(3 7 18 / var(--tw-border-opacity, 1));
-}
-
 .bg-slate-50{
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity, 1));
@@ -742,19 +729,13 @@ video {
   padding: 1.5rem;
 }
 
+.align-middle{
+  vertical-align: middle;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-xl{
@@ -762,9 +743,23 @@ video {
   line-height: 1.75rem;
 }
 
-.text-white{
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-gray-950{
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  color: rgb(3 7 18 / var(--tw-text-opacity, 1));
+}
+
+.text-green-950{
+  --tw-text-opacity: 1;
+  color: rgb(5 46 22 / var(--tw-text-opacity, 1));
 }
 
 .text-slate-400{
@@ -772,22 +767,11 @@ video {
   color: rgb(148 163 184 / var(--tw-text-opacity, 1));
 }
 
-.opacity-30{
-  opacity: 0.3;
-}
-
 .shadow-md{
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-
-/* 
-- Very Dark Grayish Blue: hsl(217, 19%, 35%)
-- Desaturated Dark Blue: hsl(214, 17%, 51%)
-- Grayish Blue: hsl(212, 23%, 69%)
-- Light Grayish Blue: hsl(210, 46%, 95%)
-*/
 
 .bg-vdgb {
   background-color: hsl(217, 19%, 35%);
@@ -826,9 +810,5 @@ video {
 
   .md\:w-96{
     width: 24rem;
-  }
-
-  .md\:break-words{
-    overflow-wrap: break-word;
   }
 }

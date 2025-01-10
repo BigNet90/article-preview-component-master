@@ -13,8 +13,9 @@
 
 </head>
 
-<body class="grid  w-screen bg-lgb manrope-font">
-  <main class="grid justify-center m-2 text-sm box-border  p-6">
+<body class="grid  align-middle w-screen bg-lgb manrope-font">
+  <main class="grid justify-center text-sm box-border  p-6">
+    <!-- General Container -->
     <div class=" container rounded-md overflow-hidden border shadow-md bg-slate-50 md:flex ">
       <img src="/images/drawers.jpg" alt="A drawer with a flower vase on the top" class="w-96">
       <div class="p-5 w-fit">
@@ -37,7 +38,8 @@
               <p class="">28 Jun 2020</p>
             </div>
           </div>
-          <div class="flex items-center justify-around static rounded-md  overflow-hidden md:  " id="content">
+          <!-- Share menu -->
+          <div class="flex items-center justify-around static rounded-md  overflow-hidden " id="content">
             <div class="hidden md:absolute top-52 bg-vdgb rounded-md" id="shareMenu">
               <div class="flex p-4 justify-around items-center w-full gap-8 object-fill rounded-md" id="socialMenu">
                 <span class="text-slate-400"> Share</span>
@@ -47,6 +49,7 @@
               </div>
 
             </div>
+            <!-- share icon -->
             <div class=" z-50 p-4 rounded-full shadow-md">
               <img src="/images/icon-share.svg" alt="share icon" class="" id="share">
             </div>
@@ -56,17 +59,19 @@
         </div>
       </div>
 
-      <!-- share menu -->
-
 
       <script src="/public/script.js"></script>
     </div>
 
   </main>
+
   <footer>
-    <div class="">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">BigNet90</a>.
+    <div class=" flex justify-center items-center text-xs">
+      <span class="text-gray-950">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          class=" text-green-950 font-semibold">Frontend
+          Mentor</a>.</span>
+      <span class="text-gray-950 ml-2">Coded by <a href="https://www.github.com/BigNet90" target="_blank"
+          class=" text-green-950 font-semibold">BigNet90</a>.</span>
     </div>
   </footer>
 </body>
